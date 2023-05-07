@@ -8,8 +8,8 @@ function App() {
 
   console.log("APP RUNNING");
 
-  const toggleParagraphHandler = (props) => {
-    setShowParagraph((prevShowParagraph) => !showParagraph);
+  const toggleParagraphHandler = () => {
+    setShowParagraph((prevShowParagraph) => !prevShowParagraph);
   };
 
   return (
